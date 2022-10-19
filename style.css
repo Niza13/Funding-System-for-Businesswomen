@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman','PT Serif', serif;  
+    font-size: 17px;
+}
+
+/* Add padding to containers */
+.container {
+  padding-left: 30%;
+  margin: 3%;
+  position: relative;
+  border: black 3px;
+}
+
+/* input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 13px;
+  margin: 3px 0 20px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgba(153, 147, 147, 0.201);
+  outline: none;
+  /* text-align: center; */
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  width: 40%;
+}
+
+/* register button */
+.registerbtn, .loginbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover, .loginbtn:hover {
+  opacity:1;
+}
+
+/*  blue color to links */
+a {
+  font-size: 15px;
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  /* background-color: #ffffff; */
+  /* text-align: center; */
+  padding-left: 36%;
+  width: 60%;
+  margin-bottom: 9%;
+  margin-top: -3%;
+}
